@@ -1,0 +1,105 @@
+body{
+    background-color: #5e3520;
+    color:#fff3ae;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #a52a2a;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#header{
+    text-decoration: none;
+    color: #fffaf4;
+    font-size: 23pt;
+    font-family: 'Georgia';
+    font-weight: bolder;
+}
+
+header nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+header nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a{
+    color: #ffe7c7;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+main{
+    padding: 7vh;
+}
+
+h2{
+    margin: auto;
+}
+
+main div{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section{
+    background-color: #1b191861;
+    display: inline-block;
+    height: 40%;
+    width: 40%;
+    margin: 40px;
+    padding: 16px;
+
+}
+
+section img{
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+    display: flex;
+    float: left;
+}
+
+section div{
+    display: inline;
+    margin: auto;
+}
+
+section h3{
+    font-size: 16pt;
+    margin: auto;
+}
+
+.button{
+    text-decoration: none;
+    color: inherit;
+}
+
+footer{
+    background-color: #a52a2a;
+    padding: 0;
+    padding: 4px;
+    text-align: center;
+}
+
+footer p{
+    color: #ffdfdf;
+    font-size: 10pt;
+    margin: 2vh;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #f79e5f;
+}
